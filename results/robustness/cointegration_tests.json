@@ -1,0 +1,40 @@
+{
+  "engle_granger": {
+    "statistic": 0.516,
+    "p_value": 0.9928,
+    "critical_values": {
+      "1pct": -3.982,
+      "5pct": -3.3832,
+      "10pct": -3.077
+    },
+    "cointegrated_5pct": false,
+    "variables": [
+      "IPC_ECOICOP Índice General",
+      "Alegría"
+    ]
+  },
+  "johansen": {
+    "trace_statistics": [
+      10.6767,
+      1.693
+    ],
+    "critical_values_95": [
+      15.4943,
+      3.8415
+    ],
+    "critical_values_99": [
+      19.9349,
+      6.6349
+    ],
+    "reject_r0_at_5pct": false,
+    "reject_r1_at_5pct": false,
+    "variables": [
+      "IPC_ECOICOP Índice General",
+      "Alegría"
+    ],
+    "det_order": 0,
+    "k_ar_diff": 5
+  },
+  "cointegration_found": false,
+  "vecm_note": "No se encontró cointegración; la especificación VAR diferenciado es apropiada"
+}

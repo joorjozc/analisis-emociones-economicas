@@ -1,0 +1,42 @@
+# Large input data files (not tracked)
+data/*.parquet
+data/*.xlsx
+data/*.csv
+
+# Checkpoints (temporary resumption files)
+*_checkpoint.json
+*_checkpoint_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

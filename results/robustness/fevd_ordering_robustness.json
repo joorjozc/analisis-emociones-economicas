@@ -1,0 +1,230 @@
+{
+  "baseline": {
+    "ordering": [
+      "IPC_ECOICOP Índice General",
+      "Ira",
+      "Miedo",
+      "Tristeza",
+      "Alegría"
+    ],
+    "fevd_cpi": {
+      "h1": {
+        "IPC_ECOICOP Índice General": 1.0,
+        "Ira": 0.0,
+        "Miedo": 0.0,
+        "Tristeza": 0.0,
+        "Alegría": 0.0
+      },
+      "h3": {
+        "IPC_ECOICOP Índice General": 0.9097,
+        "Ira": 0.0132,
+        "Miedo": 0.0352,
+        "Tristeza": 0.0192,
+        "Alegría": 0.0228
+      },
+      "h6": {
+        "IPC_ECOICOP Índice General": 0.8103,
+        "Ira": 0.0216,
+        "Miedo": 0.0957,
+        "Tristeza": 0.0175,
+        "Alegría": 0.0548
+      },
+      "h12": {
+        "IPC_ECOICOP Índice General": 0.7425,
+        "Ira": 0.0392,
+        "Miedo": 0.1182,
+        "Tristeza": 0.0207,
+        "Alegría": 0.0794
+      }
+    }
+  },
+  "joy_first": {
+    "ordering": [
+      "Alegría",
+      "IPC_ECOICOP Índice General",
+      "Ira",
+      "Miedo",
+      "Tristeza"
+    ],
+    "fevd_cpi": {
+      "h1": {
+        "Alegría": 0.0128,
+        "IPC_ECOICOP Índice General": 0.9872,
+        "Ira": 0.0,
+        "Miedo": 0.0,
+        "Tristeza": 0.0
+      },
+      "h3": {
+        "Alegría": 0.0266,
+        "IPC_ECOICOP Índice General": 0.9049,
+        "Ira": 0.0134,
+        "Miedo": 0.0357,
+        "Tristeza": 0.0194
+      },
+      "h6": {
+        "Alegría": 0.0609,
+        "IPC_ECOICOP Índice General": 0.8038,
+        "Ira": 0.0215,
+        "Miedo": 0.0953,
+        "Tristeza": 0.0185
+      },
+      "h12": {
+        "Alegría": 0.085,
+        "IPC_ECOICOP Índice General": 0.7351,
+        "Ira": 0.0399,
+        "Miedo": 0.1177,
+        "Tristeza": 0.0225
+      }
+    }
+  },
+  "joy_second": {
+    "ordering": [
+      "IPC_ECOICOP Índice General",
+      "Alegría",
+      "Ira",
+      "Miedo",
+      "Tristeza"
+    ],
+    "fevd_cpi": {
+      "h1": {
+        "IPC_ECOICOP Índice General": 1.0,
+        "Alegría": 0.0,
+        "Ira": 0.0,
+        "Miedo": 0.0,
+        "Tristeza": 0.0
+      },
+      "h3": {
+        "IPC_ECOICOP Índice General": 0.9097,
+        "Alegría": 0.0219,
+        "Ira": 0.0134,
+        "Miedo": 0.0357,
+        "Tristeza": 0.0194
+      },
+      "h6": {
+        "IPC_ECOICOP Índice General": 0.8103,
+        "Alegría": 0.0544,
+        "Ira": 0.0215,
+        "Miedo": 0.0953,
+        "Tristeza": 0.0185
+      },
+      "h12": {
+        "IPC_ECOICOP Índice General": 0.7425,
+        "Alegría": 0.0775,
+        "Ira": 0.0399,
+        "Miedo": 0.1177,
+        "Tristeza": 0.0225
+      }
+    }
+  },
+  "reversed": {
+    "ordering": [
+      "Alegría",
+      "Tristeza",
+      "Miedo",
+      "Ira",
+      "IPC_ECOICOP Índice General"
+    ],
+    "fevd_cpi": {
+      "h1": {
+        "Alegría": 0.0128,
+        "Tristeza": 0.0156,
+        "Miedo": 0.0254,
+        "Ira": 0.0223,
+        "IPC_ECOICOP Índice General": 0.9238
+      },
+      "h3": {
+        "Alegría": 0.0266,
+        "Tristeza": 0.0427,
+        "Miedo": 0.0724,
+        "Ira": 0.0273,
+        "IPC_ECOICOP Índice General": 0.831
+      },
+      "h6": {
+        "Alegría": 0.0609,
+        "Tristeza": 0.0466,
+        "Miedo": 0.1205,
+        "Ira": 0.0344,
+        "IPC_ECOICOP Índice General": 0.7376
+      },
+      "h12": {
+        "Alegría": 0.085,
+        "Tristeza": 0.0524,
+        "Miedo": 0.145,
+        "Ira": 0.061,
+        "IPC_ECOICOP Índice General": 0.6566
+      }
+    }
+  },
+  "emotions_first": {
+    "ordering": [
+      "Ira",
+      "Miedo",
+      "Tristeza",
+      "Alegría",
+      "IPC_ECOICOP Índice General"
+    ],
+    "fevd_cpi": {
+      "h1": {
+        "Ira": 0.0407,
+        "Miedo": 0.0135,
+        "Tristeza": 0.0134,
+        "Alegría": 0.0085,
+        "IPC_ECOICOP Índice General": 0.9238
+      },
+      "h3": {
+        "Ira": 0.0555,
+        "Miedo": 0.0552,
+        "Tristeza": 0.033,
+        "Alegría": 0.0253,
+        "IPC_ECOICOP Índice General": 0.831
+      },
+      "h6": {
+        "Ira": 0.0601,
+        "Miedo": 0.1149,
+        "Tristeza": 0.0295,
+        "Alegría": 0.0578,
+        "IPC_ECOICOP Índice General": 0.7376
+      },
+      "h12": {
+        "Ira": 0.0868,
+        "Miedo": 0.1449,
+        "Tristeza": 0.0282,
+        "Alegría": 0.0836,
+        "IPC_ECOICOP Índice General": 0.6566
+      }
+    }
+  },
+  "generalized": {
+    "ordering": "invariante al orden (Pesaran-Shin)",
+    "fevd_cpi": {
+      "h1": {
+        "IPC_ECOICOP Índice General": 0.9216,
+        "Ira": 0.0376,
+        "Miedo": 0.0126,
+        "Tristeza": 0.0165,
+        "Alegría": 0.0118
+      },
+      "h3": {
+        "IPC_ECOICOP Índice General": 0.8328,
+        "Ira": 0.0508,
+        "Miedo": 0.0508,
+        "Tristeza": 0.0413,
+        "Alegría": 0.0244
+      },
+      "h6": {
+        "IPC_ECOICOP Índice General": 0.7416,
+        "Ira": 0.055,
+        "Miedo": 0.1055,
+        "Tristeza": 0.0421,
+        "Alegría": 0.0558
+      },
+      "h12": {
+        "IPC_ECOICOP Índice General": 0.6694,
+        "Ira": 0.0782,
+        "Miedo": 0.131,
+        "Tristeza": 0.0448,
+        "Alegría": 0.0766
+      }
+    }
+  }
+}

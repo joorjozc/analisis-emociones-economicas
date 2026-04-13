@@ -1,0 +1,5 @@
+﻿variable,mean_pre,mean_post,diff_pct,ks_stat,ks_pvalue,ks_significant,mw_stat,mw_pvalue,mw_significant
+Ira,0.0263,0.0312,18.75,0.555,0.0,True,853.0,0.0,True
+Miedo,0.0126,0.0136,7.37,0.2693,0.0139,True,1598.0,0.0121,True
+Tristeza,0.0276,0.0255,-7.54,0.261,0.0188,True,2781.0,0.0036,True
+Alegría,0.0227,0.0204,-10.23,0.3271,0.0013,True,2936.0,0.0003,True

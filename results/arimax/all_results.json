@@ -1,0 +1,1787 @@
+[
+  {
+    "variable": "IPC_ECOICOP Índice General (Global)",
+    "order": "(1, 1, 0)",
+    "aic": 268.82,
+    "bic": 294.7,
+    "rmse": 8.1082,
+    "mae": 1.1706,
+    "mape": 1.22,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "IPC_ECOICOP Índice General (Global)",
+      "adf_statistic": -0.1596,
+      "p_value": 0.9432,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.146551,
+        "p_value": 0.0151,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": -0.324889,
+        "p_value": 0.9832,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -18.70499,
+        "p_value": 0.581,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 5.417255,
+        "p_value": 0.694,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 23.093927,
+        "p_value": 0.1334,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.331361,
+        "p_value": 0.3908,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.393482,
+        "p_value": 0.6347,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.151012,
+        "p_value": 0.1637,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 0.397216,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_IPC_ECOICOP_Indice_General_(Global).png"
+  },
+  {
+    "variable": "IPC_ECOICOP Índice General",
+    "order": "(1, 1, 0)",
+    "aic": 268.82,
+    "bic": 294.7,
+    "rmse": 8.1082,
+    "mae": 1.1706,
+    "mape": 1.22,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "IPC_ECOICOP Índice General",
+      "adf_statistic": -0.1596,
+      "p_value": 0.9432,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.146551,
+        "p_value": 0.0151,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": -0.324889,
+        "p_value": 0.9832,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -18.70499,
+        "p_value": 0.581,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 5.417255,
+        "p_value": 0.694,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 23.093927,
+        "p_value": 0.1334,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.331361,
+        "p_value": 0.3908,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.393482,
+        "p_value": 0.6347,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.151012,
+        "p_value": 0.1637,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 0.397216,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_IPC_ECOICOP_Indice_General.png"
+  },
+  {
+    "variable": "ECOICOP_Alimentos y bebidas no alcohólicas",
+    "order": "(4, 1, 3)",
+    "aic": 246.0,
+    "bic": 289.13,
+    "rmse": 7.8329,
+    "mae": 1.0902,
+    "mape": 1.15,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Alimentos y bebidas no alcohólicas",
+      "adf_statistic": -0.4355,
+      "p_value": 0.904,
+      "lags_used": 6,
+      "nobs": 125,
+      "critical_1pct": -3.4838,
+      "critical_5pct": -2.885,
+      "critical_10pct": -2.5793,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.00797,
+        "p_value": 0.5504,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 22.345972,
+        "p_value": 0.1401,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 0.412489,
+        "p_value": 0.9891,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 10.43659,
+        "p_value": 0.3796,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 1.560194,
+        "p_value": 0.9102,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.665519,
+        "p_value": 0.1009,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.382718,
+        "p_value": 0.5466,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.93864,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L2": {
+        "coefficient": 0.780397,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.957026,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L4": {
+        "coefficient": 0.19394,
+        "p_value": 0.0812,
+        "significant_5pct": false
+      },
+      "ma.L1": {
+        "coefficient": -0.876419,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L2": {
+        "coefficient": -0.852368,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L3": {
+        "coefficient": 0.920653,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.298456,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Alimentos_y_bebidas_no_alcoholicas.png"
+  },
+  {
+    "variable": "ECOICOP_Bebidas alcohólicas y tabaco",
+    "order": "(0, 1, 1)",
+    "aic": 154.9,
+    "bic": 180.77,
+    "rmse": 8.0594,
+    "mae": 0.9281,
+    "mape": 0.97,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Bebidas alcohólicas y tabaco",
+      "adf_statistic": -0.2462,
+      "p_value": 0.9328,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.183338,
+        "p_value": 0.0436,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": 10.015071,
+        "p_value": 0.3063,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 12.433235,
+        "p_value": 0.5843,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 8.296243,
+        "p_value": 0.4668,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -10.220111,
+        "p_value": 0.3676,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.050466,
+        "p_value": 0.9486,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.421122,
+        "p_value": 0.5772,
+        "significant_5pct": false
+      },
+      "ma.L1": {
+        "coefficient": 0.462385,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.166393,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Bebidas_alcoholicas_y_tabaco.png"
+  },
+  {
+    "variable": "ECOICOP_Vestido y calzado",
+    "order": "(5, 1, 4)",
+    "aic": 666.71,
+    "bic": 715.58,
+    "rmse": 8.2935,
+    "mae": 2.7776,
+    "mape": 2.95,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Vestido y calzado",
+      "adf_statistic": 2.2369,
+      "p_value": 0.9989,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.459747,
+        "p_value": 0.5492,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 39.162433,
+        "p_value": 0.5554,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -501.1401,
+        "p_value": 0.0015,
+        "significant_5pct": true
+      },
+      "Tristeza": {
+        "coefficient": -190.062779,
+        "p_value": 0.0022,
+        "significant_5pct": true
+      },
+      "Alegría": {
+        "coefficient": 480.431399,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "D_COVID": {
+        "coefficient": 4.201776,
+        "p_value": 0.0097,
+        "significant_5pct": true
+      },
+      "D_UCRANIA": {
+        "coefficient": -1.636225,
+        "p_value": 0.7871,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": -1.055494,
+        "p_value": 0.0195,
+        "significant_5pct": true
+      },
+      "ar.L2": {
+        "coefficient": -0.427614,
+        "p_value": 0.0232,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.994232,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L4": {
+        "coefficient": -1.055086,
+        "p_value": 0.0193,
+        "significant_5pct": true
+      },
+      "ar.L5": {
+        "coefficient": -0.428351,
+        "p_value": 0.0209,
+        "significant_5pct": true
+      },
+      "ma.L1": {
+        "coefficient": 0.574122,
+        "p_value": 0.223,
+        "significant_5pct": false
+      },
+      "ma.L2": {
+        "coefficient": 0.003245,
+        "p_value": 0.9662,
+        "significant_5pct": false
+      },
+      "ma.L3": {
+        "coefficient": 0.849539,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L4": {
+        "coefficient": 0.489704,
+        "p_value": 0.2664,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 7.13288,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Vestido_y_calzado.png"
+  },
+  {
+    "variable": "ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",
+    "order": "(0, 1, 0)",
+    "aic": 599.14,
+    "bic": 622.14,
+    "rmse": 8.6453,
+    "mae": 2.1007,
+    "mape": 2.11,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",
+      "adf_statistic": -1.4044,
+      "p_value": 0.5802,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.105082,
+        "p_value": 0.6215,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -72.185558,
+        "p_value": 0.2505,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 71.811326,
+        "p_value": 0.5818,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 6.835379,
+        "p_value": 0.8656,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -34.255632,
+        "p_value": 0.5826,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -0.742189,
+        "p_value": 0.7489,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 1.055953,
+        "p_value": 1.0,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 5.020591,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Vivienda_agua_electricidad_gas_y_otros_com.png"
+  },
+  {
+    "variable": "ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",
+    "order": "(5, 1, 2)",
+    "aic": 31.74,
+    "bic": 74.87,
+    "rmse": 8.595,
+    "mae": 0.9379,
+    "mape": 0.95,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",
+      "adf_statistic": -0.2129,
+      "p_value": 0.937,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": -6.6e-05,
+        "p_value": 0.9975,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -5.970049,
+        "p_value": 0.2729,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -19.455747,
+        "p_value": 0.063,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -9.803534,
+        "p_value": 0.0229,
+        "significant_5pct": true
+      },
+      "Alegría": {
+        "coefficient": 18.070021,
+        "p_value": 0.0023,
+        "significant_5pct": true
+      },
+      "D_COVID": {
+        "coefficient": 0.154203,
+        "p_value": 0.461,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.218256,
+        "p_value": 0.3105,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 1.093614,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L2": {
+        "coefficient": -0.556197,
+        "p_value": 0.0007,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.068031,
+        "p_value": 0.6965,
+        "significant_5pct": false
+      },
+      "ar.L4": {
+        "coefficient": 0.151958,
+        "p_value": 0.3065,
+        "significant_5pct": false
+      },
+      "ar.L5": {
+        "coefficient": 0.37316,
+        "p_value": 0.0001,
+        "significant_5pct": true
+      },
+      "ma.L1": {
+        "coefficient": -1.082106,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L2": {
+        "coefficient": 0.951154,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.053978,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Muebles_articulos_del_hogar_y_articulos_pa.png"
+  },
+  {
+    "variable": "ECOICOP_Sanidad",
+    "order": "(1, 1, 0)",
+    "aic": -161.62,
+    "bic": -135.75,
+    "rmse": 8.4711,
+    "mae": 0.8269,
+    "mape": 0.85,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Sanidad",
+      "adf_statistic": 3.5091,
+      "p_value": 1.0,
+      "lags_used": 3,
+      "nobs": 128,
+      "critical_1pct": -3.4825,
+      "critical_5pct": -2.8844,
+      "critical_10pct": -2.579,
+      "stationary": false
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.043182,
+        "p_value": 0.0023,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": -0.227879,
+        "p_value": 0.9431,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -3.333417,
+        "p_value": 0.5659,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -3.632259,
+        "p_value": 0.1847,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 2.340287,
+        "p_value": 0.4672,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -0.028995,
+        "p_value": 0.917,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": -0.050889,
+        "p_value": 0.7708,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.324535,
+        "p_value": 0.0002,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.014846,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Sanidad.png"
+  },
+  {
+    "variable": "ECOICOP_Transporte",
+    "order": "(0, 1, 0)",
+    "aic": 515.87,
+    "bic": 538.87,
+    "rmse": 8.2729,
+    "mae": 1.7822,
+    "mape": 1.8,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Transporte",
+      "adf_statistic": -0.6083,
+      "p_value": 0.8691,
+      "lags_used": 11,
+      "nobs": 120,
+      "critical_1pct": -3.4861,
+      "critical_5pct": -2.8859,
+      "critical_10pct": -2.5798,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.105598,
+        "p_value": 0.5091,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 56.075204,
+        "p_value": 0.2799,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -16.831906,
+        "p_value": 0.8353,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 21.239677,
+        "p_value": 0.567,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 6.993693,
+        "p_value": 0.8764,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -1.517336,
+        "p_value": 0.327,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 2.551441,
+        "p_value": 1.0,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 2.658878,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Transporte.png"
+  },
+  {
+    "variable": "ECOICOP_Comunicaciones",
+    "order": "(0, 1, 0)",
+    "aic": 293.64,
+    "bic": 316.64,
+    "rmse": 8.9118,
+    "mae": 1.1322,
+    "mape": 1.12,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Comunicaciones",
+      "adf_statistic": -1.8027,
+      "p_value": 0.3791,
+      "lags_used": 0,
+      "nobs": 131,
+      "critical_1pct": -3.4813,
+      "critical_5pct": -2.8839,
+      "critical_10pct": -2.5787,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": -0.002761,
+        "p_value": 0.9666,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 1.463086,
+        "p_value": 0.9457,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -13.146685,
+        "p_value": 0.7103,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -2.205183,
+        "p_value": 0.8903,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -27.791834,
+        "p_value": 0.0439,
+        "significant_5pct": true
+      },
+      "D_COVID": {
+        "coefficient": 0.656358,
+        "p_value": 0.2323,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": -0.115992,
+        "p_value": 0.9995,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 0.487452,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Comunicaciones.png"
+  },
+  {
+    "variable": "ECOICOP_Ocio y cultura",
+    "order": "(5, 1, 2)",
+    "aic": 455.48,
+    "bic": 498.61,
+    "rmse": 8.5617,
+    "mae": 1.6855,
+    "mape": 1.66,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Ocio y cultura",
+      "adf_statistic": 0.5562,
+      "p_value": 0.9865,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.039931,
+        "p_value": 0.1874,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -37.21066,
+        "p_value": 0.2704,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 39.65666,
+        "p_value": 0.5412,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 85.106724,
+        "p_value": 0.004,
+        "significant_5pct": true
+      },
+      "Alegría": {
+        "coefficient": 33.62967,
+        "p_value": 0.2896,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -0.408253,
+        "p_value": 0.708,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 1.06631,
+        "p_value": 0.6365,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 1.351656,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L2": {
+        "coefficient": -0.655562,
+        "p_value": 0.0001,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.265967,
+        "p_value": 0.1112,
+        "significant_5pct": false
+      },
+      "ar.L4": {
+        "coefficient": 0.427095,
+        "p_value": 0.0047,
+        "significant_5pct": true
+      },
+      "ar.L5": {
+        "coefficient": -0.426053,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L1": {
+        "coefficient": -1.733502,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L2": {
+        "coefficient": 0.987192,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 1.443604,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Ocio_y_cultura.png"
+  },
+  {
+    "variable": "ECOICOP_Enseñanza",
+    "order": "(0, 1, 1)",
+    "aic": -0.12,
+    "bic": 25.76,
+    "rmse": 8.264,
+    "mae": 0.8541,
+    "mape": 0.89,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Enseñanza",
+      "adf_statistic": 1.6303,
+      "p_value": 0.9979,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.100531,
+        "p_value": 0.0106,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": 4.793909,
+        "p_value": 0.2865,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -12.021294,
+        "p_value": 0.2989,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -7.675775,
+        "p_value": 0.061,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -2.475599,
+        "p_value": 0.6972,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -0.057575,
+        "p_value": 0.9183,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": -0.081347,
+        "p_value": 0.939,
+        "significant_5pct": false
+      },
+      "ma.L1": {
+        "coefficient": 0.434546,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.0509,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Enseñanza.png"
+  },
+  {
+    "variable": "ECOICOP_Restaurantes y hoteles",
+    "order": "(3, 1, 0)",
+    "aic": 146.85,
+    "bic": 178.48,
+    "rmse": 7.7622,
+    "mae": 0.9549,
+    "mape": 1.03,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Restaurantes y hoteles",
+      "adf_statistic": -0.6442,
+      "p_value": 0.8607,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.112606,
+        "p_value": 0.0245,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": -3.381112,
+        "p_value": 0.6752,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 22.808575,
+        "p_value": 0.1726,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 8.497397,
+        "p_value": 0.2312,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 2.424816,
+        "p_value": 0.7897,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -0.152119,
+        "p_value": 0.9115,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": -0.123413,
+        "p_value": 0.5848,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.415048,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L2": {
+        "coefficient": 0.379697,
+        "p_value": 0.0003,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.286137,
+        "p_value": 0.0004,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.151186,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Restaurantes_y_hoteles.png"
+  },
+  {
+    "variable": "ECOICOP_Otros bienes y servicios",
+    "order": "(2, 1, 0)",
+    "aic": -8.81,
+    "bic": 19.94,
+    "rmse": 7.9234,
+    "mae": 0.8499,
+    "mape": 0.92,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ECOICOP_Otros bienes y servicios",
+      "adf_statistic": 1.0733,
+      "p_value": 0.995,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.100197,
+        "p_value": 0.0032,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": 2.634143,
+        "p_value": 0.5893,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -19.620134,
+        "p_value": 0.0666,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -0.783366,
+        "p_value": 0.8641,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 2.096715,
+        "p_value": 0.6034,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.0155,
+        "p_value": 0.9666,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.342295,
+        "p_value": 0.3385,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.021999,
+        "p_value": 0.7594,
+        "significant_5pct": false
+      },
+      "ar.L2": {
+        "coefficient": 0.382188,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 0.0469,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ECOICOP_Otros_bienes_y_servicios.png"
+  },
+  {
+    "variable": "ICM",
+    "order": "(1, 0, 2)",
+    "aic": 938.4,
+    "bic": 970.11,
+    "rmse": 7.7966,
+    "mae": 5.8172,
+    "mape": 218.12,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ICM",
+      "adf_statistic": -5.0413,
+      "p_value": 0.0,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "True"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": -9.550219,
+        "p_value": 0.3457,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 100.783846,
+        "p_value": 0.4669,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 37.779344,
+        "p_value": 0.895,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -244.918409,
+        "p_value": 0.1981,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 467.294007,
+        "p_value": 0.006,
+        "significant_5pct": true
+      },
+      "D_COVID": {
+        "coefficient": 1.01248,
+        "p_value": 0.3863,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.414775,
+        "p_value": 0.6686,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": -0.449146,
+        "p_value": 0.0001,
+        "significant_5pct": true
+      },
+      "ma.L1": {
+        "coefficient": 0.156568,
+        "p_value": 0.1523,
+        "significant_5pct": false
+      },
+      "ma.L2": {
+        "coefficient": -0.662524,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 59.922777,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_ICM.png"
+  },
+  {
+    "variable": "ICC",
+    "order": "(0, 1, 0)",
+    "aic": 843.78,
+    "bic": 866.35,
+    "rmse": 10.2892,
+    "mae": 5.3486,
+    "mape": 6.96,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "ICC",
+      "adf_statistic": -2.1501,
+      "p_value": 0.2249,
+      "lags_used": 2,
+      "nobs": 122,
+      "critical_1pct": -3.4851,
+      "critical_5pct": -2.8855,
+      "critical_10pct": -2.5796,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.035816,
+        "p_value": 0.9599,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -64.651851,
+        "p_value": 0.7903,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -173.67826,
+        "p_value": 0.6029,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -126.488604,
+        "p_value": 0.5376,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -84.503514,
+        "p_value": 0.7077,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -9.570083,
+        "p_value": 0.0029,
+        "significant_5pct": true
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.227856,
+        "p_value": 0.9999,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 46.423162,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 125,
+    "figure": "arimax_results\\arimax_ICC.png"
+  },
+  {
+    "variable": "IPI",
+    "order": "(0, 0, 0)",
+    "aic": 917.82,
+    "bic": 940.88,
+    "rmse": 7.3672,
+    "mae": 5.6646,
+    "mape": 6.01,
+    "ljung_box_ok": false,
+    "adf": {
+      "variable": "IPI",
+      "adf_statistic": -2.9539,
+      "p_value": 0.0394,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "True"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 100.322425,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": 582.674504,
+        "p_value": 0.0072,
+        "significant_5pct": true
+      },
+      "Miedo": {
+        "coefficient": -76.076238,
+        "p_value": 0.8322,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -676.697773,
+        "p_value": 0.0003,
+        "significant_5pct": true
+      },
+      "Alegría": {
+        "coefficient": 141.462482,
+        "p_value": 0.5002,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -8.057862,
+        "p_value": 0.0001,
+        "significant_5pct": true
+      },
+      "D_UCRANIA": {
+        "coefficient": -2.041874,
+        "p_value": 0.269,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 54.252821,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_IPI.png"
+  },
+  {
+    "variable": "economia → IPC_ECOICOP Índice General",
+    "order": "(1, 1, 0)",
+    "aic": 266.86,
+    "bic": 292.74,
+    "rmse": 8.1242,
+    "mae": 1.1768,
+    "mape": 1.23,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "economia → IPC_ECOICOP Índice General",
+      "adf_statistic": -0.1596,
+      "p_value": 0.9432,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.143697,
+        "p_value": 0.0188,
+        "significant_5pct": true
+      },
+      "Ira": {
+        "coefficient": 9.098222,
+        "p_value": 0.0782,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 14.75022,
+        "p_value": 0.3959,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -4.285797,
+        "p_value": 0.5479,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -3.272613,
+        "p_value": 0.5896,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.353943,
+        "p_value": 0.3988,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.349971,
+        "p_value": 0.6507,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.17264,
+        "p_value": 0.104,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 0.391203,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_economia_→_IPC_ECOICOP_Indice_General.png"
+  },
+  {
+    "variable": "politica → ICC",
+    "order": "(0, 1, 0)",
+    "aic": 841.71,
+    "bic": 864.27,
+    "rmse": 9.9105,
+    "mae": 5.1733,
+    "mape": 6.72,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "politica → ICC",
+      "adf_statistic": -2.1501,
+      "p_value": 0.2249,
+      "lags_used": 2,
+      "nobs": 122,
+      "critical_1pct": -3.4851,
+      "critical_5pct": -2.8855,
+      "critical_10pct": -2.5796,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.017723,
+        "p_value": 0.9797,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -3.359326,
+        "p_value": 0.9632,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -490.224371,
+        "p_value": 0.2209,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": -88.077649,
+        "p_value": 0.6217,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 90.125495,
+        "p_value": 0.6855,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -7.732718,
+        "p_value": 0.0006,
+        "significant_5pct": true
+      },
+      "D_UCRANIA": {
+        "coefficient": 1.754261,
+        "p_value": 0.9995,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 45.652764,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 125,
+    "figure": "arimax_results\\arimax_politica_→_ICC.png"
+  },
+  {
+    "variable": "sociedad → ICC",
+    "order": "(0, 1, 0)",
+    "aic": 773.19,
+    "bic": 795.01,
+    "rmse": 10.4317,
+    "mae": 5.5335,
+    "mape": 7.26,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "sociedad → ICC",
+      "adf_statistic": -1.9906,
+      "p_value": 0.2907,
+      "lags_used": 2,
+      "nobs": 111,
+      "critical_1pct": -3.4907,
+      "critical_5pct": -2.888,
+      "critical_10pct": -2.5809,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": -0.045508,
+        "p_value": 0.95,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 33.015317,
+        "p_value": 0.7635,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -14.468603,
+        "p_value": 0.8263,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 20.158252,
+        "p_value": 0.7954,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -233.956174,
+        "p_value": 0.0192,
+        "significant_5pct": true
+      },
+      "D_COVID": {
+        "coefficient": -7.179237,
+        "p_value": 0.0307,
+        "significant_5pct": true
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.582292,
+        "p_value": 0.9996,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 47.604324,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 114,
+    "figure": "arimax_results\\arimax_sociedad_→_ICC.png"
+  },
+  {
+    "variable": "deporte → ECOICOP_Ocio y cultura",
+    "order": "(5, 1, 2)",
+    "aic": 436.16,
+    "bic": 479.29,
+    "rmse": 8.716,
+    "mae": 1.6295,
+    "mape": 1.6,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "deporte → ECOICOP_Ocio y cultura",
+      "adf_statistic": 0.5562,
+      "p_value": 0.9865,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.191996,
+        "p_value": 0.349,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -42.331254,
+        "p_value": 0.0134,
+        "significant_5pct": true
+      },
+      "Miedo": {
+        "coefficient": 5.070585,
+        "p_value": 0.8981,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 18.890631,
+        "p_value": 0.049,
+        "significant_5pct": true
+      },
+      "Alegría": {
+        "coefficient": 17.414389,
+        "p_value": 0.0708,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.470712,
+        "p_value": 0.6294,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 1.261106,
+        "p_value": 0.7045,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": 0.030384,
+        "p_value": 0.7553,
+        "significant_5pct": false
+      },
+      "ar.L2": {
+        "coefficient": -0.857246,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.587888,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L4": {
+        "coefficient": 0.125196,
+        "p_value": 0.1082,
+        "significant_5pct": false
+      },
+      "ar.L5": {
+        "coefficient": -0.600729,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L1": {
+        "coefficient": -0.120768,
+        "p_value": 0.1132,
+        "significant_5pct": false
+      },
+      "ma.L2": {
+        "coefficient": 0.870952,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 1.258677,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_deporte_→_ECOICOP_Ocio_y_cultura.png"
+  },
+  {
+    "variable": "cultura → ECOICOP_Ocio y cultura",
+    "order": "(5, 1, 2)",
+    "aic": 437.1,
+    "bic": 480.23,
+    "rmse": 8.7975,
+    "mae": 1.6638,
+    "mape": 1.64,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "cultura → ECOICOP_Ocio y cultura",
+      "adf_statistic": 0.5562,
+      "p_value": 0.9865,
+      "lags_used": 13,
+      "nobs": 118,
+      "critical_1pct": -3.487,
+      "critical_5pct": -2.8864,
+      "critical_10pct": -2.58,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.11234,
+        "p_value": 0.6056,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": -3.723811,
+        "p_value": 0.5643,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": -42.339962,
+        "p_value": 0.0392,
+        "significant_5pct": true
+      },
+      "Tristeza": {
+        "coefficient": -14.619772,
+        "p_value": 0.0795,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": 13.279562,
+        "p_value": 0.07,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": 0.797383,
+        "p_value": 0.4056,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.913312,
+        "p_value": 0.7007,
+        "significant_5pct": false
+      },
+      "ar.L1": {
+        "coefficient": -0.012628,
+        "p_value": 0.8932,
+        "significant_5pct": false
+      },
+      "ar.L2": {
+        "coefficient": -0.868759,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L3": {
+        "coefficient": -0.578609,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ar.L4": {
+        "coefficient": 0.123862,
+        "p_value": 0.1254,
+        "significant_5pct": false
+      },
+      "ar.L5": {
+        "coefficient": -0.567985,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "ma.L1": {
+        "coefficient": -0.018883,
+        "p_value": 0.743,
+        "significant_5pct": false
+      },
+      "ma.L2": {
+        "coefficient": 0.918674,
+        "p_value": 0.0,
+        "significant_5pct": true
+      },
+      "sigma2": {
+        "coefficient": 1.253917,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_cultura_→_ECOICOP_Ocio_y_cultura.png"
+  },
+  {
+    "variable": "medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",
+    "order": "(0, 1, 0)",
+    "aic": 599.13,
+    "bic": 622.13,
+    "rmse": 8.4107,
+    "mae": 2.085,
+    "mape": 2.1,
+    "ljung_box_ok": true,
+    "adf": {
+      "variable": "medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",
+      "adf_statistic": -1.4044,
+      "p_value": 0.5802,
+      "lags_used": 12,
+      "nobs": 119,
+      "critical_1pct": -3.4865,
+      "critical_5pct": -2.8862,
+      "critical_10pct": -2.5799,
+      "stationary": "False"
+    },
+    "coefficients": {
+      "intercept": {
+        "coefficient": 0.106114,
+        "p_value": 0.6161,
+        "significant_5pct": false
+      },
+      "Ira": {
+        "coefficient": 5.79652,
+        "p_value": 0.8981,
+        "significant_5pct": false
+      },
+      "Miedo": {
+        "coefficient": 37.518377,
+        "p_value": 0.2654,
+        "significant_5pct": false
+      },
+      "Tristeza": {
+        "coefficient": 5.338736,
+        "p_value": 0.6311,
+        "significant_5pct": false
+      },
+      "Alegría": {
+        "coefficient": -16.614872,
+        "p_value": 0.6386,
+        "significant_5pct": false
+      },
+      "D_COVID": {
+        "coefficient": -0.014534,
+        "p_value": 0.9949,
+        "significant_5pct": false
+      },
+      "D_UCRANIA": {
+        "coefficient": 0.411532,
+        "p_value": 1.0,
+        "significant_5pct": false
+      },
+      "sigma2": {
+        "coefficient": 5.020302,
+        "p_value": 0.0,
+        "significant_5pct": true
+      }
+    },
+    "n_obs": 132,
+    "figure": "arimax_results\\arimax_medioambiente_→_ECOICOP_Vivienda_agua_electricidad.png"
+  }
+]

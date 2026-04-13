@@ -1,0 +1,22 @@
+{
+  "COVID (mar-2020)": {
+    "f_stat": 35.3838,
+    "p_value": 0.0,
+    "n1": 74,
+    "n2": 58,
+    "rss_full": 5641.7721,
+    "rss_pre": 117.3564,
+    "rss_post": 2185.263,
+    "significant": true
+  },
+  "Ucrania (feb-2022)": {
+    "f_stat": 198.6158,
+    "p_value": 0.0,
+    "n1": 97,
+    "n2": 35,
+    "rss_full": 5641.7721,
+    "rss_pre": 412.5634,
+    "rss_post": 204.6988,
+    "significant": true
+  }
+}

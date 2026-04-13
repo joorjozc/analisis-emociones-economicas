@@ -1,0 +1,6 @@
+﻿variable,adf_stat,p_value,stationary
+IPC_ECOICOP Índice General,-0.1596,0.9432,False
+Ira,-2.1156,0.2383,False
+Miedo,-4.7327,0.0001,True
+Tristeza,-1.1703,0.6862,False
+Alegría,-2.0574,0.262,False

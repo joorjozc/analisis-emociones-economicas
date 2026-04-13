@@ -1,0 +1,88 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata from this file."
+type: software
+title: "Sentiment Analysis in Spanish Digital Media and Consumer Behavior (2014-2024)"
+version: 2.0.0
+date-released: 2026-03-08
+url: "https://github.com/Jorgejosezamora/analisis-emociones-economicas"
+repository-code: "https://github.com/Jorgejosezamora/analisis-emociones-economicas"
+license: MIT
+authors:
+  - family-names: "Zamora Cánovas"
+    given-names: "Jorge José"
+    email: jjzamora.canovas@gmail.com
+    affiliation: "Universidad Politécnica de Cartagena (UPCT)"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - "sentiment analysis"
+  - "emotion detection"
+  - "natural language processing"
+  - "RoBERTa"
+  - "Gemma 3"
+  - "Spanish NLP"
+  - "economic news"
+  - "ARIMAX"
+  - "VAR"
+  - "Granger causality"
+  - "structural breaks"
+  - "time series"
+  - "consumer behavior"
+abstract: >
+  Full-scale emotion analysis system for 253,886 Spanish economic headlines
+  (2014-2024) from 1,436 digital media outlets. Uses RoBERTa-base-bne for
+  primary emotion classification into 7 categories (anger, fear, joy, sadness,
+  surprise, disgust, others), Gemma 3:4b for cross-validation on 16,651
+  non-neutral headlines, and ARIMAX/VAR models for econometric analysis of
+  the relationship between media sentiment and macroeconomic indicators
+  (CPI, Consumer Confidence Index, Social Security affiliations). Includes
+  Granger causality testing, impulse-response functions, and structural
+  break detection around the COVID-19 pandemic.
+references:
+  - type: article
+    title: "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
+    authors:
+      - family-names: "Liu"
+        given-names: "Yinhan"
+      - family-names: "Ott"
+        given-names: "Myle"
+      - family-names: "Goyal"
+        given-names: "Naman"
+      - family-names: "Du"
+        given-names: "Jingfei"
+      - family-names: "Joshi"
+        given-names: "Mandar"
+      - family-names: "Chen"
+        given-names: "Danqi"
+      - family-names: "Levy"
+        given-names: "Omer"
+      - family-names: "Lewis"
+        given-names: "Mike"
+      - family-names: "Zettlemoyer"
+        given-names: "Luke"
+      - family-names: "Stoyanov"
+        given-names: "Veselin"
+    year: 2019
+    url: "https://arxiv.org/abs/1907.11692"
+  - type: software
+    title: "Gemma 3"
+    authors:
+      - name: "Google DeepMind"
+    year: 2025
+    url: "https://ai.google.dev/gemma"
+  - type: software
+    title: "PlanTL-GOB-ES RoBERTa Base BNE"
+    authors:
+      - name: "Plan de Tecnologías del Lenguaje - Gobierno de España"
+    year: 2022
+    url: "https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne"
+preferred-citation:
+  type: thesis
+  title: "Análisis del sentimiento en medios digitales españoles y su influencia en el comportamiento del consumidor: una aproximación empírica pospandemia (2014-2024)"
+  authors:
+    - family-names: "Zamora Cánovas"
+      given-names: "Jorge José"
+  year: 2026
+  institution:
+    name: "Universidad Politécnica de Cartagena"
+  url: "https://github.com/Jorgejosezamora/analisis-emociones-economicas"
+  version: 2.0.0

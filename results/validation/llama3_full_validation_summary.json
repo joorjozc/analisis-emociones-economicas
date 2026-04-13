@@ -1,0 +1,216 @@
+{
+  "sample_size": 2000,
+  "cohens_kappa": 0.63,
+  "krippendorff_alpha": 0.6269,
+  "accuracy": 0.7235,
+  "exact_matches": 1447,
+  "avg_sensationalism": 7.03,
+  "economic_impact_distribution": {
+    "Low": 0.6605,
+    "High": 0.213,
+    "Medium": 0.1265
+  },
+  "confusion_matrix": [
+    [
+      625,
+      19,
+      59,
+      0,
+      16,
+      14
+    ],
+    [
+      27,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      11,
+      2,
+      144,
+      0,
+      3,
+      1
+    ],
+    [
+      21,
+      0,
+      5,
+      284,
+      31,
+      44
+    ],
+    [
+      61,
+      2,
+      165,
+      7,
+      374,
+      5
+    ],
+    [
+      26,
+      2,
+      26,
+      2,
+      2,
+      17
+    ]
+  ],
+  "confusion_labels": [
+    "Anger",
+    "Disgust",
+    "Fear",
+    "Joy",
+    "Sadness",
+    "Surprise"
+  ],
+  "classification_report": {
+    "Anger": {
+      "precision": 0.8106355382619974,
+      "recall": 0.8526603001364257,
+      "f1-score": 0.8311170212765957,
+      "support": 733.0
+    },
+    "Disgust": {
+      "precision": 0.10714285714285714,
+      "recall": 0.09375,
+      "f1-score": 0.1,
+      "support": 32.0
+    },
+    "Fear": {
+      "precision": 0.35910224438902744,
+      "recall": 0.8944099378881988,
+      "f1-score": 0.5124555160142349,
+      "support": 161.0
+    },
+    "Joy": {
+      "precision": 0.9692832764505119,
+      "recall": 0.7376623376623377,
+      "f1-score": 0.8377581120943953,
+      "support": 385.0
+    },
+    "Sadness": {
+      "precision": 0.8779342723004695,
+      "recall": 0.6091205211726385,
+      "f1-score": 0.7192307692307692,
+      "support": 614.0
+    },
+    "Surprise": {
+      "precision": 0.20987654320987653,
+      "recall": 0.22666666666666666,
+      "f1-score": 0.21794871794871795,
+      "support": 75.0
+    },
+    "accuracy": 0.7235,
+    "macro avg": {
+      "precision": 0.5556624552924566,
+      "recall": 0.5690449605877111,
+      "f1-score": 0.5364183560941189,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.7917031638439624,
+      "recall": 0.7235,
+      "f1-score": 0.7377024169921125,
+      "support": 2000.0
+    }
+  },
+  "roberta_distribution": {
+    "Anger": 733,
+    "Sadness": 614,
+    "Joy": 385,
+    "Fear": 161,
+    "Surprise": 75,
+    "Disgust": 32
+  },
+  "llama_distribution": {
+    "Anger": 771,
+    "Sadness": 426,
+    "Fear": 401,
+    "Joy": 293,
+    "Surprise": 81,
+    "Disgust": 28
+  },
+  "by_category": {
+    "medioambiente": {
+      "n": 371,
+      "kappa": 0.4413,
+      "accuracy": 0.6038
+    },
+    "politica": {
+      "n": 452,
+      "kappa": 0.5607,
+      "accuracy": 0.8252
+    },
+    "sociedad": {
+      "n": 366,
+      "kappa": 0.6246,
+      "accuracy": 0.7158
+    },
+    "deporte": {
+      "n": 501,
+      "kappa": 0.6208,
+      "accuracy": 0.7265
+    },
+    "cultura": {
+      "n": 200,
+      "kappa": 0.6272,
+      "accuracy": 0.74
+    },
+    "economia": {
+      "n": 110,
+      "kappa": 0.5812,
+      "accuracy": 0.6909
+    }
+  },
+  "by_year": {
+    "2014": {
+      "n": 117,
+      "kappa": 0.6405
+    },
+    "2015": {
+      "n": 122,
+      "kappa": 0.6415
+    },
+    "2016": {
+      "n": 131,
+      "kappa": 0.597
+    },
+    "2017": {
+      "n": 157,
+      "kappa": 0.5873
+    },
+    "2018": {
+      "n": 196,
+      "kappa": 0.6304
+    },
+    "2019": {
+      "n": 201,
+      "kappa": 0.6536
+    },
+    "2020": {
+      "n": 206,
+      "kappa": 0.6739
+    },
+    "2021": {
+      "n": 220,
+      "kappa": 0.6638
+    },
+    "2022": {
+      "n": 224,
+      "kappa": 0.6039
+    },
+    "2023": {
+      "n": 210,
+      "kappa": 0.6303
+    },
+    "2024": {
+      "n": 216,
+      "kappa": 0.587
+    }
+  }
+}

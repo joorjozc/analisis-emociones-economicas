@@ -1,0 +1,23 @@
+model,variable,order,n_obs,aic_published,aic_refit,aic_matches,burn,first_residual,rmse_published,rmse_all,rmse_corrected,mae_published,mae_corrected,ljung_box_ok
+CPI General Index,IPC_ECOICOP Índice General,"(1, 1, 0)",132,268.82,268.82,True,1,92.8763,8.1082,8.1082,0.6302,1.1706,0.4706,True
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,"(4, 1, 3)",132,246.0,245.99,True,1,89.7759,7.8329,7.833,0.5469,1.0902,0.4132,True
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,"(0, 1, 1)",132,154.9,154.9,True,1,92.4798,8.0594,8.0596,0.4077,0.9281,0.2294,True
+Clothing & Footwear,ECOICOP_Vestido y calzado,"(5, 1, 4)",132,666.71,666.48,True,1,89.9802,8.2935,8.2928,2.7369,2.7776,2.11,True
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles","(0, 1, 0)",132,599.14,599.14,True,1,95.9596,8.6453,8.6453,2.2407,2.1007,1.3843,True
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar","(5, 1, 2)",132,31.74,31.69,True,1,98.7224,8.595,8.596,0.2406,0.9379,0.1919,True
+Health,ECOICOP_Sanidad,"(1, 1, 0)",132,-161.62,-161.59,True,1,97.3127,8.4711,8.4709,0.1219,0.8269,0.0902,True
+Transport,ECOICOP_Transporte,"(0, 1, 0)",132,515.87,515.87,True,1,93.1981,8.2729,8.2729,1.6306,1.7822,1.0844,True
+Communications,ECOICOP_Comunicaciones,"(0, 1, 0)",132,293.64,293.64,True,1,102.0767,8.9118,8.9118,0.6982,1.1322,0.3616,True
+Recreation & Culture,ECOICOP_Ocio y cultura,"(5, 1, 2)",132,455.48,455.48,True,1,97.3699,8.5617,8.5621,1.2228,1.6855,0.9562,True
+Education,ECOICOP_Enseñanza,"(0, 1, 1)",132,-0.12,-0.12,True,1,94.9108,8.264,8.264,0.2256,0.8541,0.1358,True
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,"(3, 1, 0)",132,146.85,146.87,True,1,89.0608,7.7622,7.7614,0.3891,0.9549,0.2824,True
+Other Goods & Services,ECOICOP_Otros bienes y servicios,"(2, 1, 0)",132,-8.81,-8.81,True,1,90.9989,7.9234,7.9234,0.2169,0.8499,0.1616,True
+ICM,ICM,"(1, 0, 2)",132,938.4,938.4,True,0,-8.6834,7.7966,7.7966,7.7966,5.8172,5.8174,True
+ICC,ICC,"(0, 1, 0)",125,843.78,843.78,True,1,86.47,10.2892,10.2892,6.8135,5.3486,4.6944,True
+IPI,IPI,"(0, 0, 0)",132,917.82,917.82,True,0,-4.0129,7.3672,7.3672,7.3672,5.6646,5.6651,False
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,"(1, 1, 0)",132,266.86,266.86,True,1,93.0647,8.1242,8.1242,0.6255,1.1768,0.4755,True
+politics → ICC,politica → ICC,"(0, 1, 0)",125,841.71,841.71,True,1,81.3409,9.9105,9.9105,6.7567,5.1733,4.559,True
+society → ICC,sociedad → ICC,"(0, 1, 0)",114,773.19,773.19,True,1,83.8222,10.4317,10.4317,6.8996,5.5335,4.8407,True
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,"(5, 1, 2)",132,436.16,436.17,True,1,99.2968,8.716,8.7161,1.1331,1.6295,0.8837,True
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,"(5, 1, 2)",132,437.1,437.06,True,1,100.221,8.7975,8.7968,1.1408,1.6638,0.9105,True
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles","(0, 1, 0)",132,599.13,599.13,True,1,93.1663,8.4107,8.4107,2.2406,2.085,1.3897,True

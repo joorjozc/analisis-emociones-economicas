@@ -1,0 +1,133 @@
+model,variable,term,family,beta,p,q_bh,p_holm
+IPI,IPI,D_COVID,dummy,-8.0579,0.0001,0.0044,0.0044
+politics → ICC,politica → ICC,D_COVID,dummy,-7.7327,0.0006,0.0132,0.0258
+ICC,ICC,D_COVID,dummy,-9.5701,0.0029,0.0425,0.1218
+Clothing & Footwear,ECOICOP_Vestido y calzado,D_COVID,dummy,4.2018,0.0097,0.1067,0.3977
+society → ICC,sociedad → ICC,D_COVID,dummy,-7.1792,0.0307,0.2702,1.0
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,D_COVID,dummy,0.6655,0.1009,0.7399,1.0
+Communications,ECOICOP_Comunicaciones,D_COVID,dummy,0.6564,0.2323,1.0,1.0
+IPI,IPI,D_UKRAINE,dummy,-2.0419,0.269,1.0,1.0
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",D_UKRAINE,dummy,0.2183,0.3105,1.0,1.0
+Transport,ECOICOP_Transporte,D_COVID,dummy,-1.5173,0.327,1.0,1.0
+Other Goods & Services,ECOICOP_Otros bienes y servicios,D_UKRAINE,dummy,0.3423,0.3385,1.0,1.0
+ICM,ICM,D_COVID,dummy,1.0125,0.3863,1.0,1.0
+CPI General Index,IPC_ECOICOP Índice General,D_COVID,dummy,0.3314,0.3908,1.0,1.0
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,D_COVID,dummy,0.3539,0.3988,1.0,1.0
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,D_COVID,dummy,0.7974,0.4056,1.0,1.0
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",D_COVID,dummy,0.1542,0.461,1.0,1.0
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,D_UKRAINE,dummy,0.3827,0.5466,1.0,1.0
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,D_UKRAINE,dummy,0.4211,0.5772,1.0,1.0
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,D_UKRAINE,dummy,-0.1234,0.5848,1.0,1.0
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,D_COVID,dummy,0.4707,0.6294,1.0,1.0
+CPI General Index,IPC_ECOICOP Índice General,D_UKRAINE,dummy,0.3935,0.6347,1.0,1.0
+Recreation & Culture,ECOICOP_Ocio y cultura,D_UKRAINE,dummy,1.0663,0.6365,1.0,1.0
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,D_UKRAINE,dummy,0.35,0.6507,1.0,1.0
+ICM,ICM,D_UKRAINE,dummy,0.4148,0.6686,1.0,1.0
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,D_UKRAINE,dummy,0.9133,0.7007,1.0,1.0
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,D_UKRAINE,dummy,1.2611,0.7045,1.0,1.0
+Recreation & Culture,ECOICOP_Ocio y cultura,D_COVID,dummy,-0.4083,0.708,1.0,1.0
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",D_COVID,dummy,-0.7422,0.7489,1.0,1.0
+Health,ECOICOP_Sanidad,D_UKRAINE,dummy,-0.0509,0.7708,1.0,1.0
+Clothing & Footwear,ECOICOP_Vestido y calzado,D_UKRAINE,dummy,-1.6362,0.7871,1.0,1.0
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,D_COVID,dummy,-0.1521,0.9115,1.0,1.0
+Health,ECOICOP_Sanidad,D_COVID,dummy,-0.029,0.917,1.0,1.0
+Education,ECOICOP_Enseñanza,D_COVID,dummy,-0.0576,0.9183,1.0,1.0
+Education,ECOICOP_Enseñanza,D_UKRAINE,dummy,-0.0813,0.939,1.0,1.0
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,D_COVID,dummy,0.0505,0.9486,1.0,1.0
+Other Goods & Services,ECOICOP_Otros bienes y servicios,D_COVID,dummy,0.0155,0.9666,1.0,1.0
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",D_COVID,dummy,-0.0145,0.9949,1.0,1.0
+Communications,ECOICOP_Comunicaciones,D_UKRAINE,dummy,-0.116,0.9995,1.0,1.0
+politics → ICC,politica → ICC,D_UKRAINE,dummy,1.7543,0.9995,1.0,1.0
+society → ICC,sociedad → ICC,D_UKRAINE,dummy,0.5823,0.9996,1.0,1.0
+ICC,ICC,D_UKRAINE,dummy,0.2279,0.9999,1.0,1.0
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",D_UKRAINE,dummy,1.056,1.0,1.0,1.0
+Transport,ECOICOP_Transporte,D_UKRAINE,dummy,2.5514,1.0,1.0,1.0
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",D_UKRAINE,dummy,0.4115,1.0,1.0,1.0
+Clothing & Footwear,ECOICOP_Vestido y calzado,Joy,emotion,480.4314,0.0,0.0,0.0
+IPI,IPI,Sadness,emotion,-676.6978,0.0003,0.0132,0.0261
+Clothing & Footwear,ECOICOP_Vestido y calzado,Fear,emotion,-501.1401,0.0015,0.0405,0.129
+Clothing & Footwear,ECOICOP_Vestido y calzado,Sadness,emotion,-190.0628,0.0022,0.0405,0.187
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",Joy,emotion,18.07,0.0023,0.0405,0.1932
+Recreation & Culture,ECOICOP_Ocio y cultura,Sadness,emotion,85.1067,0.004,0.0587,0.332
+ICM,ICM,Joy,emotion,467.294,0.006,0.0754,0.492
+IPI,IPI,Anger,emotion,582.6745,0.0072,0.0792,0.5832
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,Anger,emotion,-42.3313,0.0134,0.131,1.0
+society → ICC,sociedad → ICC,Joy,emotion,-233.9562,0.0192,0.169,1.0
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",Sadness,emotion,-9.8035,0.0229,0.1832,1.0
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,Fear,emotion,-42.34,0.0392,0.2875,1.0
+Communications,ECOICOP_Comunicaciones,Joy,emotion,-27.7918,0.0439,0.2972,1.0
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,Sadness,emotion,18.8906,0.049,0.308,1.0
+Education,ECOICOP_Enseñanza,Sadness,emotion,-7.6758,0.061,0.3279,1.0
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",Fear,emotion,-19.4557,0.063,0.3279,1.0
+Other Goods & Services,ECOICOP_Otros bienes y servicios,Fear,emotion,-19.6201,0.0666,0.3279,1.0
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,Joy,emotion,13.2796,0.07,0.3279,1.0
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,Joy,emotion,17.4144,0.0708,0.3279,1.0
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,Anger,emotion,9.0982,0.0782,0.3331,1.0
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,Sadness,emotion,-14.6198,0.0795,0.3331,1.0
+CPI General Index,IPC_ECOICOP Índice General,Joy,emotion,23.0939,0.1334,0.5336,1.0
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,Anger,emotion,22.346,0.1401,0.536,1.0
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,Fear,emotion,22.8086,0.1726,0.6329,1.0
+Health,ECOICOP_Sanidad,Sadness,emotion,-3.6323,0.1847,0.6501,1.0
+ICM,ICM,Sadness,emotion,-244.9184,0.1981,0.6705,1.0
+politics → ICC,politica → ICC,Fear,emotion,-490.2244,0.2209,0.72,1.0
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,Sadness,emotion,8.4974,0.2312,0.7266,1.0
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Anger,emotion,-72.1856,0.2505,0.7281,1.0
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Fear,emotion,37.5184,0.2654,0.7281,1.0
+Recreation & Culture,ECOICOP_Ocio y cultura,Anger,emotion,-37.2107,0.2704,0.7281,1.0
+Furnishings & Household,"ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar",Anger,emotion,-5.97,0.2729,0.7281,1.0
+Transport,ECOICOP_Transporte,Anger,emotion,56.0752,0.2799,0.7281,1.0
+Education,ECOICOP_Enseñanza,Anger,emotion,4.7939,0.2865,0.7281,1.0
+Recreation & Culture,ECOICOP_Ocio y cultura,Joy,emotion,33.6297,0.2896,0.7281,1.0
+Education,ECOICOP_Enseñanza,Fear,emotion,-12.0213,0.2989,0.7285,1.0
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,Anger,emotion,10.0151,0.3063,0.7285,1.0
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,Joy,emotion,-10.2201,0.3676,0.8513,1.0
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,Sadness,emotion,10.4366,0.3796,0.8565,1.0
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,Fear,emotion,14.7502,0.3959,0.871,1.0
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,Sadness,emotion,8.2962,0.4668,0.9,1.0
+ICM,ICM,Anger,emotion,100.7838,0.4669,0.9,1.0
+Health,ECOICOP_Sanidad,Joy,emotion,2.3403,0.4672,0.9,1.0
+IPI,IPI,Joy,emotion,141.4625,0.5002,0.9,1.0
+ICC,ICC,Sadness,emotion,-126.4886,0.5376,0.9,1.0
+Recreation & Culture,ECOICOP_Ocio y cultura,Fear,emotion,39.6567,0.5412,0.9,1.0
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,Sadness,emotion,-4.2858,0.5479,0.9,1.0
+Clothing & Footwear,ECOICOP_Vestido y calzado,Anger,emotion,39.1624,0.5554,0.9,1.0
+culture → Recreation & Culture,cultura → ECOICOP_Ocio y cultura,Anger,emotion,-3.7238,0.5643,0.9,1.0
+Health,ECOICOP_Sanidad,Fear,emotion,-3.3334,0.5659,0.9,1.0
+Transport,ECOICOP_Transporte,Sadness,emotion,21.2397,0.567,0.9,1.0
+CPI General Index,IPC_ECOICOP Índice General,Fear,emotion,-18.705,0.581,0.9,1.0
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Fear,emotion,71.8113,0.5818,0.9,1.0
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Joy,emotion,-34.2556,0.5826,0.9,1.0
+Alcohol & Tobacco,ECOICOP_Bebidas alcohólicas y tabaco,Fear,emotion,12.4332,0.5843,0.9,1.0
+Other Goods & Services,ECOICOP_Otros bienes y servicios,Anger,emotion,2.6341,0.5893,0.9,1.0
+economy → CPI General Index,economia → IPC_ECOICOP Índice General,Joy,emotion,-3.2726,0.5896,0.9,1.0
+ICC,ICC,Fear,emotion,-173.6783,0.6029,0.9,1.0
+Other Goods & Services,ECOICOP_Otros bienes y servicios,Joy,emotion,2.0967,0.6034,0.9,1.0
+politics → ICC,politica → ICC,Sadness,emotion,-88.0776,0.6217,0.9064,1.0
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Sadness,emotion,5.3387,0.6311,0.9064,1.0
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Joy,emotion,-16.6149,0.6386,0.9064,1.0
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,Anger,emotion,-3.3811,0.6752,0.9192,1.0
+politics → ICC,politica → ICC,Joy,emotion,90.1255,0.6855,0.9192,1.0
+CPI General Index,IPC_ECOICOP Índice General,Sadness,emotion,5.4173,0.694,0.9192,1.0
+Education,ECOICOP_Enseñanza,Joy,emotion,-2.4756,0.6972,0.9192,1.0
+ICC,ICC,Joy,emotion,-84.5035,0.7077,0.9192,1.0
+Communications,ECOICOP_Comunicaciones,Fear,emotion,-13.1467,0.7103,0.9192,1.0
+society → ICC,sociedad → ICC,Anger,emotion,33.0153,0.7635,0.9638,1.0
+Restaurants & Hotels,ECOICOP_Restaurantes y hoteles,Joy,emotion,2.4248,0.7897,0.9638,1.0
+ICC,ICC,Anger,emotion,-64.6519,0.7903,0.9638,1.0
+society → ICC,sociedad → ICC,Sadness,emotion,20.1583,0.7954,0.9638,1.0
+society → ICC,sociedad → ICC,Fear,emotion,-14.4686,0.8263,0.9638,1.0
+IPI,IPI,Fear,emotion,-76.0762,0.8322,0.9638,1.0
+Transport,ECOICOP_Transporte,Fear,emotion,-16.8319,0.8353,0.9638,1.0
+Other Goods & Services,ECOICOP_Otros bienes y servicios,Sadness,emotion,-0.7834,0.8641,0.9638,1.0
+Housing & Utilities,"ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Sadness,emotion,6.8354,0.8656,0.9638,1.0
+Transport,ECOICOP_Transporte,Joy,emotion,6.9937,0.8764,0.9638,1.0
+Communications,ECOICOP_Comunicaciones,Sadness,emotion,-2.2052,0.8903,0.9638,1.0
+ICM,ICM,Fear,emotion,37.7793,0.895,0.9638,1.0
+sports → Recreation & Culture,deporte → ECOICOP_Ocio y cultura,Fear,emotion,5.0706,0.8981,0.9638,1.0
+environment → Housing & Utilities,"medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles",Anger,emotion,5.7965,0.8981,0.9638,1.0
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,Joy,emotion,1.5602,0.9102,0.965,1.0
+Health,ECOICOP_Sanidad,Anger,emotion,-0.2279,0.9431,0.9791,1.0
+Communications,ECOICOP_Comunicaciones,Anger,emotion,1.4631,0.9457,0.9791,1.0
+politics → ICC,politica → ICC,Anger,emotion,-3.3593,0.9632,0.9856,1.0
+CPI General Index,IPC_ECOICOP Índice General,Anger,emotion,-0.3249,0.9832,0.9891,1.0
+Food & Non-Alc. Beverages,ECOICOP_Alimentos y bebidas no alcohólicas,Fear,emotion,0.4125,0.9891,0.9891,1.0

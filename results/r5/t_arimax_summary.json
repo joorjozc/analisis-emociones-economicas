@@ -1,0 +1,214 @@
+{
+  "n_models": 22,
+  "multiplicity": {
+    "dummy": {
+      "n_tests": 44,
+      "expected_by_chance": 2.2,
+      "nominal_05": 5,
+      "bh_05": 3,
+      "holm_05": 2,
+      "nominal": [
+        {
+          "model": "IPI",
+          "term": "D_COVID",
+          "beta": -8.057862,
+          "p": 0.0001,
+          "q_bh": 0.0044,
+          "p_holm": 0.0044
+        },
+        {
+          "model": "politics → ICC",
+          "term": "D_COVID",
+          "beta": -7.732718,
+          "p": 0.0006,
+          "q_bh": 0.013199999999999998,
+          "p_holm": 0.025799999999999997
+        },
+        {
+          "model": "ICC",
+          "term": "D_COVID",
+          "beta": -9.570083,
+          "p": 0.0029,
+          "q_bh": 0.04253333333333333,
+          "p_holm": 0.12179999999999999
+        },
+        {
+          "model": "Clothing & Footwear",
+          "term": "D_COVID",
+          "beta": 4.201776,
+          "p": 0.0097,
+          "q_bh": 0.1067,
+          "p_holm": 0.3977
+        },
+        {
+          "model": "society → ICC",
+          "term": "D_COVID",
+          "beta": -7.179237,
+          "p": 0.0307,
+          "q_bh": 0.27016,
+          "p_holm": 1.0
+        }
+      ]
+    },
+    "emotion": {
+      "n_tests": 88,
+      "expected_by_chance": 4.4,
+      "nominal_05": 14,
+      "bh_05": 5,
+      "holm_05": 2,
+      "nominal": [
+        {
+          "model": "Clothing & Footwear",
+          "term": "Joy",
+          "beta": 480.431399,
+          "p": 0.0,
+          "q_bh": 0.0,
+          "p_holm": 0.0
+        },
+        {
+          "model": "IPI",
+          "term": "Sadness",
+          "beta": -676.697773,
+          "p": 0.0003,
+          "q_bh": 0.013199999999999998,
+          "p_holm": 0.026099999999999998
+        },
+        {
+          "model": "Clothing & Footwear",
+          "term": "Fear",
+          "beta": -501.1401,
+          "p": 0.0015,
+          "q_bh": 0.04048,
+          "p_holm": 0.129
+        },
+        {
+          "model": "Clothing & Footwear",
+          "term": "Sadness",
+          "beta": -190.062779,
+          "p": 0.0022,
+          "q_bh": 0.04048,
+          "p_holm": 0.187
+        },
+        {
+          "model": "Furnishings & Household",
+          "term": "Joy",
+          "beta": 18.070021,
+          "p": 0.0023,
+          "q_bh": 0.04048,
+          "p_holm": 0.19319999999999998
+        },
+        {
+          "model": "Recreation & Culture",
+          "term": "Sadness",
+          "beta": 85.106724,
+          "p": 0.004,
+          "q_bh": 0.05866666666666667,
+          "p_holm": 0.332
+        },
+        {
+          "model": "ICM",
+          "term": "Joy",
+          "beta": 467.294007,
+          "p": 0.006,
+          "q_bh": 0.07542857142857143,
+          "p_holm": 0.492
+        },
+        {
+          "model": "IPI",
+          "term": "Anger",
+          "beta": 582.674504,
+          "p": 0.0072,
+          "q_bh": 0.07919999999999999,
+          "p_holm": 0.5831999999999999
+        },
+        {
+          "model": "sports → Recreation & Culture",
+          "term": "Anger",
+          "beta": -42.331254,
+          "p": 0.0134,
+          "q_bh": 0.1310222222222222,
+          "p_holm": 1.0
+        },
+        {
+          "model": "society → ICC",
+          "term": "Joy",
+          "beta": -233.956174,
+          "p": 0.0192,
+          "q_bh": 0.16896,
+          "p_holm": 1.0
+        },
+        {
+          "model": "Furnishings & Household",
+          "term": "Sadness",
+          "beta": -9.803534,
+          "p": 0.0229,
+          "q_bh": 0.1832,
+          "p_holm": 1.0
+        },
+        {
+          "model": "culture → Recreation & Culture",
+          "term": "Fear",
+          "beta": -42.339962,
+          "p": 0.0392,
+          "q_bh": 0.2874666666666667,
+          "p_holm": 1.0
+        },
+        {
+          "model": "Communications",
+          "term": "Joy",
+          "beta": -27.791834,
+          "p": 0.0439,
+          "q_bh": 0.29716923076923074,
+          "p_holm": 1.0
+        },
+        {
+          "model": "sports → Recreation & Culture",
+          "term": "Sadness",
+          "beta": 18.890631,
+          "p": 0.049,
+          "q_bh": 0.308,
+          "p_holm": 1.0
+        }
+      ]
+    }
+  },
+  "global": {
+    "rmse_published": 8.1082,
+    "rmse_corrected": 0.6302307811681743,
+    "mae_corrected": 0.47058981599494903,
+    "first_residual": 92.87632558304516,
+    "first_level": 93.373,
+    "aic": 268.82,
+    "max_abs_residual": 2.866766929689291,
+    "max_abs_residual_date": "March 2022",
+    "residual_sd": 0.6326500497847296
+  },
+  "rmse_corrected": {
+    "IPC_ECOICOP Índice General": 0.6302307811681743,
+    "ECOICOP_Alimentos y bebidas no alcohólicas": 0.5469432057808069,
+    "ECOICOP_Bebidas alcohólicas y tabaco": 0.40767362897897974,
+    "ECOICOP_Vestido y calzado": 2.736940575300173,
+    "ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles": 2.2406725173581363,
+    "ECOICOP_Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar": 0.24060615617810774,
+    "ECOICOP_Sanidad": 0.12194572358750141,
+    "ECOICOP_Transporte": 1.6306116681254774,
+    "ECOICOP_Comunicaciones": 0.6982003770477976,
+    "ECOICOP_Ocio y cultura": 1.222779267745871,
+    "ECOICOP_Enseñanza": 0.22564480974076576,
+    "ECOICOP_Restaurantes y hoteles": 0.3890664371099141,
+    "ECOICOP_Otros bienes y servicios": 0.21685094851897319,
+    "ICM": 7.796554056720264,
+    "ICC": 6.813454505287188,
+    "IPI": 7.367204196345119,
+    "economia → IPC_ECOICOP Índice General": 0.6255269304893547,
+    "politica → ICC": 6.756682937837341,
+    "sociedad → ICC": 6.899588649145037,
+    "deporte → ECOICOP_Ocio y cultura": 1.1330581461693092,
+    "cultura → ECOICOP_Ocio y cultura": 1.1408037428105877,
+    "medioambiente → ECOICOP_Vivienda, agua, electricidad, gas y otros combustibles": 2.2406081015655177
+  },
+  "rmse_published_range": [
+    7.3672,
+    10.4317
+  ]
+}

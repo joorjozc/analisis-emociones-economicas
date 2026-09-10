@@ -45,7 +45,13 @@ Los análisis complementarios incluyen pruebas de causalidad de Granger, funcion
 │   ├── 6_structural_breaks.py      # Detección de cambios estructurales
 │   ├── 7_full_llama3_validation.py # Validación cruzada con LLM (Gemma 3:4b)
 │   ├── 8_generate_thesis_figures.py
-│   └── 9_robustness_checks.py     # Comprobaciones de robustez (cointegración, FEVD, VAR)
+│   ├── 9_robustness_checks.py     # Comprobaciones de robustez (cointegración, FEVD, VAR)
+│   ├── 10_r5_var_granger_fevd.py  # Revisión 2026: VAR(6), Granger conjunto + BH, FEVD corregida, IRF
+│   ├── 11_r5_breaks_curation.py   # Revisión 2026: sup-F simulado, panel fijo de medios
+│   ├── 12_r5_negativity_index.py  # Revisión 2026: índice de negatividad como predictor
+│   ├── 13_r5_arimax_multiplicity.py # Revisión 2026: BH sobre los ARIMAX y RMSE corregido
+│   ├── 14_r5_cointegration_toda_yamamoto.py # Revisión 2026: Johansen (sensibilidad) y Toda-Yamamoto
+│   └── r5_common.py                # Funciones compartidas (bootstrap de Granger, GFEVD)
 ├── data/                           # Datos de entrada (no incluidos — ver data/README.md)
 ├── results/                        # Resultados de todos los scripts (incluidos)
 │   ├── arimax/                     # Modelos ARIMAX, pruebas ADF, gráficos de diagnóstico
@@ -53,10 +59,12 @@ Los análisis complementarios incluyen pruebas de causalidad de Granger, funcion
 │   ├── structural_breaks/          # Pruebas de Bai-Perron, Chow, comparaciones de régimen
 │   ├── robustness/                 # Cointegración, robustez VAR lag-order, FEVD ordering, GFEVD
 │   ├── validation/                 # Validación cruzada RoBERTa vs Gemma 3
+│   ├── r5/                         # Resultados de la revisión de 2026 (scripts 10-14)
 │   ├── econometric_dataset_*.csv   # Datasets mensuales agregados
 │   ├── volume_dataset.csv          # Volumen de titulares por fuente
 │   └── censo_report.json           # Estadísticas del censo del dataset
 ├── figures/                        # 27 figuras de la tesis (PDF + PNG, ver más abajo)
+│   └── r5/                         # Figuras rehechas en la revisión de 2026 (7.11, 7.13, 7.14, 7.23)
 ├── requirements.txt
 ├── CITATION.cff
 └── LICENSE
@@ -81,6 +89,10 @@ Todas las figuras están disponibles en `figures/` en formato PDF y PNG.
 | `fig_7_10` | Tendencias por categoría mediática |
 | `fig_7_25` | Robustez FEVD bajo distintos ordenamientos Cholesky + GFEVD Pesaran-Shin |
 | `fig_7_26` | Robustez del modelo VAR según orden de rezagos (VAR(2), VAR(4), VAR(6)) |
+| `r5/fig_7_11_arimax_global` | ARIMAX del IPC general, observado frente a ajustado (sin el residuo de inicialización) |
+| `r5/fig_7_13_irf` | Funciones de impulso-respuesta ortogonalizadas del VAR(6) con bandas al 95 % |
+| `r5/fig_7_14_fevd` | Descomposición de la varianza del IPC (Cholesky y generalizada), VAR(6) |
+| `r5/fig_7_23_granger_pares` | Contrastes de Granger par a par con q-valores de Benjamini-Hochberg |
 
 ## Tecnologías
 
@@ -97,7 +109,7 @@ Todas las figuras están disponibles en `figures/` en formato PDF y PNG.
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Jorgejosezamora/analisis-emociones-economicas.git
+git clone https://github.com/joorjozc/analisis-emociones-economicas.git
 cd analisis-emociones-economicas
 
 # Crear entorno virtual
@@ -124,11 +136,22 @@ python 6_structural_breaks.py
 python 7_full_llama3_validation.py    # Requiere Ollama con Gemma 3:4b
 python 8_generate_thesis_figures.py
 python 9_robustness_checks.py         # Comprobaciones de robustez
+python 10_r5_var_granger_fevd.py      # Revisión de 2026 (ver CHANGES_R5.md)
+python 11_r5_breaks_curation.py       # Requiere los titulares (HEADLINES_PARQUET)
+python 12_r5_negativity_index.py
+python 13_r5_arimax_multiplicity.py
+python 14_r5_cointegration_toda_yamamoto.py
 ```
 
 > **Nota**: El Script 2 (~253K titulares) y el Script 7 (~16,6K titulares vía LLM) son de larga ejecución. Ambos soportan reanudación mediante checkpoints.
 
 > **Nota**: El Script 7 requiere [Ollama](https://ollama.com/) con el modelo `gemma3:4b` instalado localmente.
+
+## Revisión de septiembre de 2026
+
+Los scripts 10-14 revisan la parte econométrica con los criterios que exigió la revisión por pares del artículo derivado de la tesis: tests conjuntos de Granger con corrección por comparaciones múltiples (Holm, bootstrap, Benjamini-Hochberg), regla explícita de selección del orden del VAR, FEVD generalizada (Pesaran-Shin), valores críticos simulados para el sup-F de Bai-Perron, un panel fijo de medios frente a la curación de Google News, el índice de negatividad como predictor y contrastes de Toda-Yamamoto. Cada script reproduce primero las cifras publicadas en `results/` como control. Los cambios y sus consecuencias están en [`CHANGES_R5.md`](CHANGES_R5.md).
+
+Este repositorio sustituye a `github.com/Jorgejosezamora/analisis-emociones-economicas`, cuya cuenta ya no es accesible; conserva su historial completo.
 
 ## Fuentes de datos
 

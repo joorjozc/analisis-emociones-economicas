@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software in your research, please cite it using the metadata from this file."
 type: software
 title: "Sentiment Analysis in Spanish Digital Media and Consumer Behavior (2014-2024)"
-version: 2.0.0
-date-released: 2026-03-08
-url: "https://github.com/Jorgejosezamora/analisis-emociones-economicas"
-repository-code: "https://github.com/Jorgejosezamora/analisis-emociones-economicas"
+version: 2.1.0
+date-released: 2026-09-10
+url: "https://github.com/joorjozc/analisis-emociones-economicas"
+repository-code: "https://github.com/joorjozc/analisis-emociones-economicas"
 license: MIT
 authors:
   - family-names: "Zamora Cánovas"
@@ -84,5 +84,5 @@ preferred-citation:
   year: 2026
   institution:
     name: "Universidad Politécnica de Cartagena"
-  url: "https://github.com/Jorgejosezamora/analisis-emociones-economicas"
-  version: 2.0.0
+  url: "https://github.com/joorjozc/analisis-emociones-economicas"
+  version: 2.1.0
